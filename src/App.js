@@ -1,11 +1,11 @@
 
 import './App.css';
-import BlogPost from './componets/BlogPosts';
+import BlogPosts from './componets/BlogPosts';
 
 function App() {
   return (
     <div className="App">
-      <BlogPost/>
+      <BlogPosts/>
     </div>
   );
 }

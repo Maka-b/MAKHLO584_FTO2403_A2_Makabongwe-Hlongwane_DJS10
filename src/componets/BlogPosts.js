@@ -1,7 +1,7 @@
 import React from "react";
 import useFetch from "./customHooks/useFetch";
 
-export default function BlogPost() {
+export default function BlogPosts() {
     const {data, error} = useFetch("https://jsonplaceholder.typicode.com/posts")
 
     
